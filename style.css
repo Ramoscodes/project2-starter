@@ -1,0 +1,63 @@
+html, body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1.5rem;
+  
+}
+
+img 
+{position: relative;
+max-width: 40%;
+max-height: 40%;
+top:-1.5em;
+left: 17em;
+border: 1.5em solid rgb(30, 88, 42);
+opacity: 90%;;
+}
+
+
+/*fixes position of giphy display area*/
+#gif-area {
+  position:fixed;
+  left:10%;
+  top: 10%;
+}
+
+/*fixes the position of the canvas*/
+#sketch-holder{
+  position:fixed;  
+  left:45%;
+  top: 15%;
+}
+#search {
+width: 10em;
+border: .2em solid rgb(15, 15, 15);
+
+}
+
+#submit 
+{background-color: rgb(62, 179, 62);
+  border: .2em solid rgb(15, 15, 15);
+  font-weight: bold;}
+
+#buttonOne {
+  background-color: rgb(238, 196, 44);
+  border: .2em double gray;
+  font-size: 1rem;
+}
+#buttonTwo {
+  background-color: rgb(238, 238, 104);
+  border: .2em double gray;
+  font-size: 1rem;
+} 
+
+#clearButton {
+position: fixed;
+top: 25em;
+background-color:rgb(154, 197, 223);
+padding: 2em;
+border:.5em solid rgb(98, 174, 218);
+font-weight:900;}
